@@ -1,0 +1,13 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    min-height: 51px;
+    background-color: #212121;
+}
+
+.menu {
+    padding: 10px 70px;
+    margin: 0;
+}
