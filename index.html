@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Bootstrap Project</title>
+	<link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
@@ -19,29 +20,36 @@
 			<div class="container">
 				<ul class="menu">
 					<li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
-					<li class="menu_item"><a href="#" class="menu_link">Со своим автомобилем</a></li>
-					<li class="menu_item"><a href="#" class="menu_link">На автомобиле компании</a></li>
+					<li class="menu_item"><a href="#condition" class="menu_link">Со своим автомобилем</a></li>
+					<li class="menu_item"><a href="#condition" class="menu_link">На автомобиле компании</a></li>
 					<li class="menu_item"><a href="#" class="menu_link">Требования</a></li>
 					<li class="menu_item"><a href="#" class="menu_link">Контакты</a></li>
 					<li class="menu_item"><a href="#" class="menu_link">Оставить заявку</a></li>
 				</ul>
+			</div>
+
+			<div class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
 			</div>
 		</nav>
 
 		<div class="subheader">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 offset-md-1">
+					<div class="col-6 col-md-4 offset-md-1">
 						<a href="#" class="subheader_logo"><img src="icons/logo.png" alt="logo" class="subheader_img"></a>
 						<div class="subheader_text">Официальный партнер Uber в Москве</div>
 					</div>
 	
-					<div class="col-md-2 offset-md-2">
+					<div class="xs-hidden col-6 col-md-3 offset-md-1 col-xl-2 offset-xl-2">
 						<div class="subheader_call">Звоните нам ежедневно</div>
 						<a href="#" class="subheader_phone">8 495 797 09 88</a>
 					</div>
 	
-					<div class="col-md-2">
+					<div class="col-6 col-md-3">
+						<a href="#" class="xs-visible subheader_phone">8 495 797 09 88</a>
 						<button class="subheader_btn">Заказать звонок</button>
 					</div>
 				</div>
@@ -52,7 +60,7 @@
 	<section class="promo">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-10 offset-md-1">
+				<div class="col-md-12 col-lg-10 offset-lg-1">
 					<h1 class="promo_header">КОМПАНИЯ UBER PARTNERS!</h1>
 					<h2 class="promo_subheader">ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА СВОЕМ АВТО!</h2>
 
@@ -143,7 +151,7 @@
 					<div class="reason_round">
 						<img src="icons/call.png" alt="call" class="reason_img">
 					</div>
-					<div class="reason_text">
+					<div class="reason_text reason_text_mb">
 					<span>Круглосуточная поддержка</span>
 					<br>
 					В Uber действует круглосуточная поддержка водителей по электронной почте. Если что-то непонятно, Вы всегда можете задать вопрос через On-line консультацию.
@@ -153,7 +161,7 @@
 					<div class="reason_round">
 						<img src="icons/car.png" alt="car" class="reason_img">
 					</div>
-					<div class="reason_text">
+					<div class="reason_text reason_text_mb reason_mobile_mb">
 					<span>Без шашечек и наклеек</span>
 					<br>
 					Вам не нужно менять цвет, устанавливать «шашки» на автомобиль и обклеивать его наклейками.
@@ -171,37 +179,37 @@
 			<div class="subtitle">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</div>
 			
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="mobile_item mobile_item_1">
 						<div class="mobile_item_subtitle">оформление заказа одним касанием</div>
 						<div class="mobile_item_plus"></div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="mobile_item mobile_item_2">
 						<div class="mobile_item_subtitle">надежная подача</div>
 						<div class="mobile_item_plus"></div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="mobile_item mobile_item_3">
 						<div class="mobile_item_subtitle">прозрачные цены</div>
 						<div class="mobile_item_plus"></div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="mobile_item mobile_item_4">
 						<div class="mobile_item_subtitle">безналичная оплата</div>
 						<div class="mobile_item_plus"></div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="mobile_item mobile_item_5">
 						<div class="mobile_item_subtitle">обратная связь</div>
 						<div class="mobile_item_plus"></div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="mobile_item mobile_item_6">
 						<div class="mobile_item_subtitle">разделить стоимость поездки</div>
 						<div class="mobile_item_plus"></div>
@@ -217,6 +225,7 @@
 			<h3 class="title title_white">Выбор - отличная штука!</h3>
 			<div class="subtitle subtitle_white">Закажите автомобиль, который подходит вам по стилю и бюджету</div>
 			<img src="img/car.png" alt="car-bg" class="opportunity_car">
+			<img src="img/car_mobile.png" alt="car-mobile" class="opportunity_car_mobile">
 			
 			
 			<div class="opportunity_text">
@@ -229,7 +238,7 @@
 
 	<div class="opportunity_bg"></div>
 
-	<section class="condition">
+	<section class="condition" id="condition">
 		<div class="container">
 			<h2 class="label">возможности</h2>
 			<h3 class="title">условия и требования</h3>
@@ -270,13 +279,13 @@
 							<li>Автомобиль не должен быть желтый и не с желтыми номерами</li>
 							<li>Машина не старше 3 лет</li>
 							<li>Стаж вождения не менее 3 лет</li>
-							<li>Дивайс на системе андроид 4.0 и выше(самсунг)</li>
+							<li>Девайс на системе андроид 4.0 и выше(самсунг)</li>
 						</ul>
 					</div>
 				</div>
 
 				<div class="col-md-6">
-					<div class="condition_item condition_item_mt red">
+					<div class="condition_item condition_item_mt condition_item_mobile red">
 						<h4 class="condition_header">ДОКУМЕНТЫ::</h4>
 						<ul class="condition_list">
 							<li>Права 2 стороны</li>
@@ -298,43 +307,57 @@
 			<h3 class="title title_white">По всему миру</h3>
 			<div class="subtitle subtitle_white">Мы в вашем городе и по всему миру</div>
 			<a href="#" class="world_link">Мы в вашем городе и по всему миру</a>
+			<a href="#" class="world_link_mobile">посмотреть все города</a>
 		</div>
 	</section>
 
-	<section class="footer">
-		<div class="footer_social">
-			<div class="footer_social_round"><a href="#"><span class="icon-facebook"></span></a></div>
-			<div class="footer_social_round"><a href="#"><span class="icon-instagram"></span></a></div>
-			<div class="footer_social_round"><a href="#"><span class="icon-twitter"></span></a></div>
-			<div class="footer_social_round"><a href="#"><span class="icon-linkedin2"></span></a></div>
-		</div>
-
-		<div class="container">
-			<div class="footer_line"></div>
-			<div class="footer_top_wrapper">
-				<ul class="footer_top_list">
-					<li class="footer_top_item"><a href="#" class="footer_top_link">на главную</a></li>
-					<li class="footer_top_item"><a href="#" class="footer_top_link">города</a></li>
-					<li class="footer_top_item"><a href="#" class="footer_top_link">для водителей</a></li>
-				</ul>
+	<footer>
+		<div class="footer_divider"></div>
+		<div class="footer_wrapper">
+			<div>
+				<div class="footer_social">
+					<a href="#" class="footer_social_item">
+                        <span class="icon-instagram"></span>
+                    </a>
+                    <a href="#" class="footer_social_item">
+                        <span class="icon-facebook"></span>
+                    </a>
+                    <a href="#" class="footer_social_item">
+                        <span class="icon-twitter"></span>
+                    </a>
+                    <a href="#" class="footer_social_item">
+                        <span class="icon-linkedin2"></span>
+                    </a>
+				</div>
 			</div>
 
-			<div class="footer_bottom_wrapper">
-				<ul class="footer_bottom_list">
-					<li class="footer_bottom_item"><a href="#" class="footer_bottom_link">центр поддержки</a></li>
-					<li class="footer_bottom_item"><a href="#" class="footer_bottom_link">вакансии</a></li>
-					<li class="footer_bottom_item"><a href="#" class="footer_bottom_link">разработчики</a></li>
-					<li class="footer_bottom_item"><a href="#" class="footer_bottom_link">блог</a></li>
-					<li class="footer_bottom_item"><a href="#" class="footer_bottom_link">о нас</a></li>
-				</ul>
+			<div>
+				<div class="footer_links">
+					<div class="footer_links_main">
+						<a href="#">на главную</a>
+                        <a href="#">города</a>
+                        <a href="#">для водителей</a>
+					</div>
+					<div class="footer_links_sub">
+						<a href="#">центр поддержки</a>
+						<a href="#">вакансии</a>
+						<a href="#">разработчики</a>
+						<a href="#">блог</a>
+						<a href="#">о нас</a>
+					</div>
+					<a href="#" class="footer_links_lang">Русский</a>
+				</div>
 			</div>
 
-			<a href="#" class="footer_lang">русский</a>
-		</div>
+			<div>
+				<div class="footer_mobile">
+					<a href="#">
+						<img src="icons/store.png" alt="store">
+					</a>
+				</div>
+			</div>
+	</footer>
 
-		<img src="icons/store.png" alt="online-store" class="footer_store">
-	</section>
-
-	<div class="footer_bg"></div>
+	<script src="js/script.js"></script>
 </body>
 </html>
